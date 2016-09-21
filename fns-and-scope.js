@@ -31,7 +31,7 @@ function getName() {
 
 function welcome() {
 	getName();
-	 alert('Welcome ' + getName());
+	 alert('Welcome, ' + getName());
 }//Code Here
 
 
@@ -69,15 +69,20 @@ function welcome() {
 
   //Code Here
 
+function myName(){
+  return "David";
+}
 
 
 //Now save the function definition of myName into a new variable called newMyName
 
   //Code Here
 
+var newMyName = myName;
+
 //Now alert the result of invoking newMyName
 
-
+alert(newMyName());
 
 //////////////////PROBLEM 7////////////////////
 
