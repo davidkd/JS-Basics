@@ -43,7 +43,7 @@ function welcome() {
 //What is the difference between arguments and parameters?
 
   //Answer Here
-  //Perameters are what you pass through when declaring a function. Example: function funcName(a, b){}. Arguments are passed through when invoking a function. Example: funcName('hi', 10){}.
+  //Perameters are what you pass through when declaring a function. Example: function funcName(a, b){}. 'a' & 'b' are considered perameters. Arguments are passed through when invoking a function. Example: funcName('hi', 10);. 'hi' & '10' are considered arguments.
 
 //////////////////PROBLEM 5////////////////////
 
@@ -53,7 +53,12 @@ function welcome() {
 
 
   //Answer Here
-
+  // NaN
+  // 0
+  // false
+  // undefined
+  // ""
+  // null
 
 
 //////////////////PROBLEM 6////////////////////
