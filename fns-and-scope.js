@@ -4,23 +4,26 @@ var name = 'Tyler';
 //Create a function called isTyler that accepts name as it's only parameter.
 //If the argument you passed in is equal to 'Tyler', return true. If it's not, return false.
 
+//Code Here
+
 function isTyler(name) {
-  if(name === 'Tyler') {
-  return true;
+  if (name === 'Tyler') {
+    return true;
   }
-  return false;
-}//Code Here
+    return false;
+}
 
 //////////////////PROBLEM 2////////////////////
 
 
 //Create a function called getName that uses prompt() to prompt the user for their name, then returns the name.
 
+//Code Here
 
 function getName() {
-  return prompt('What is your name?');
-}//Code Here
-
+  var name = prompt("What is your name?");
+  return name;
+}
 
 //////////////////PROBLEM 3////////////////////
 
@@ -30,9 +33,9 @@ function getName() {
 //then alerts "Welcome, " plus whatever the users name is.
 
 function welcome() {
-	getName();
-	 alert('Welcome, ' + getName());
-}//Code Here
+  var userName = getName();
+  alert("Welcome, " + userName);
+}
 
 
 //////////////////PROBLEM 4////////////////////
@@ -43,7 +46,8 @@ function welcome() {
 //What is the difference between arguments and parameters?
 
   //Answer Here
-  //Perameters are what you pass through when declaring a function. Example: function funcName(a, b){}. 'a' & 'b' are considered perameters. Arguments are passed through when invoking a function. Example: funcName('hi', 10);. 'hi' & '10' are considered arguments.
+  // Parameters and used as placeholders usually at the declaration of a function. They don't hold value and are mutable.
+  // Arguments and actual values that are passed into a function in place of parameters (placeholders). They are passed into a function at a function invocation.
 
 //////////////////PROBLEM 5////////////////////
 
@@ -53,12 +57,12 @@ function welcome() {
 
 
   //Answer Here
-  // NaN
-  // 0
-  // false
-  // undefined
-  // ""
-  // null
+
+  // false              var highScore = false;                The Boolean false
+  // 0                  var highScore = 0;                    The number 0
+  // ''                 var highScore = '';                   An empty string
+  // NaN                var highScore = 10/'score';           Not a number
+  // undefined          var highScore;                        A variable with no value
 
 
 //////////////////PROBLEM 6////////////////////
@@ -69,20 +73,15 @@ function welcome() {
 
   //Code Here
 
-function myName(){
-  return "David";
-}
 
 
 //Now save the function definition of myName into a new variable called newMyName
 
   //Code Here
 
-var newMyName = myName;
 
 //Now alert the result of invoking newMyName
 
-alert(newMyName());
 
 //////////////////PROBLEM 7////////////////////
 
