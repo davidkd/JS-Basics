@@ -72,16 +72,18 @@ function welcome() {
 //Create a function called myName that returns your name
 
   //Code Here
-
-
+  function myName() {
+    var name = 'David';
+    return name;
+  }
 
 //Now save the function definition of myName into a new variable called newMyName
 
   //Code Here
-
+  var newMyName = myName;
 
 //Now alert the result of invoking newMyName
-
+  alert(newMyName());
 
 //////////////////PROBLEM 7////////////////////
 
